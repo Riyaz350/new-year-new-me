@@ -30,6 +30,15 @@ font-size: 40px;
 font-weight: 700;
 margin-bottom: 24px;
 }
+
+
+/* main section styles */
+
+main{
+    max-width: 1140px;
+    margin: 0px 230px;
+}
+
 /* head section styles */
 
 
@@ -60,7 +69,7 @@ font-weight: 700;
 .my-failures{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 140px;
     gap: 100px;
 }
@@ -71,7 +80,82 @@ font-weight: 700;
 .fail-list li{
     margin-bottom: 8px;
 }
-.mu-image img{
-    border-radius: 527.929px;
-background: rgba(241, 91, 34, 0.20);
+
+/* Goals section styles */
+.goals ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 80px;
+}
+.goals ul li{
+    list-style-type: none;
+}
+.goals ul li h3{
+    margin-top: 18px;
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    }
+.goals ul li p{
+    margin-top: 16px;
+    color: var(--dark-03, #737272);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.plans{
+    text-align: center;
+}
+.plans> h3{
+    margin-top: 170px;
+}
+
+/* motivation section styles */
+
+.motivation{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.7), rgba(0, 255, 0, 0)), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+
+#motivation-title{
+    color: #FFF;
+
+}
+.motivaiton button{
+    color: white;
+    background-color: #F15B22;
+}
+
+/* footer styles */
+
+footer{
+    background: #151414;
+}
+
+#future-title{
+    color: white;
+}
+.foot{
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-evenly;
+    margin: 0px 230px;
+    gap: 330px;
+    color: #FFF;
+
+}
+.social-links ul{
+    display: flex;
+}
+.social-links li{
+    list-style-type: none;
 }
