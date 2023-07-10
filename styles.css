@@ -139,23 +139,46 @@ font-weight: 700;
 
 footer{
     background: #151414;
+    margin-top: 130px;
 }
 
 #future-title{
     color: white;
+    padding-bottom: 15px;
 }
 .foot{
     display: flex;
     max-width: 1140px;
     justify-content: space-evenly;
-    margin: 0px 230px;
+    padding: 130px 230px;
     gap: 330px;
     color: #FFF;
 
 }
 .social-links ul{
     display: flex;
+    padding-left: 0%;
 }
 .social-links li{
     list-style-type: none;
+    padding-right: 25px;
+
+}
+
+.footer-text p{
+    padding-bottom: 24px;
+}
+.subscribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-form input{
+    
+    padding: 21px 158px 22px 21px;
+    border-radius: 5px;
+    background-color: black;
+    color: #F3F3F3;
+    margin-top: 30px;
 }
